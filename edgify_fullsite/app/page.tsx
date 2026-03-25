@@ -24,3 +24,9 @@ export default async function Home(){
   </div>
  )
 }
+type Product = {
+  id: string
+  name: string
+  price: number
+  image?: string
+}
