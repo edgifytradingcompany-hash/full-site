@@ -5,7 +5,7 @@ type Product = {
   image?: string
 }
 
-import { getProducts } from "../lib/api/products"
+import { getProducts } from "./lib/api/products";
 import ProductCard from "../components/ProductCard"
 
 export default async function Home() {
